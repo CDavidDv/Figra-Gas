@@ -1,0 +1,461 @@
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.pad-ini {
+    background-image: url('../images/logos_figra/fondo_t.webp');
+    background-color: #c3e4ff09;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 55%;
+  }
+
+footer{
+    background-image: url('../images/footer/footer_bg.webp');
+    overflow: hidden;
+}
+  
+.navbar{
+    padding: 1rem;
+}
+
+.navbar-brand img{
+    height: 3.25rem;
+    width: 12.0rem;
+    margin-left: 3.5rem;
+}
+
+.collapse.navbar-collapse{
+    margin-right: 8rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 120%;
+}
+
+.navbar {
+    background-color: #2e94d5; 
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+}
+
+.carousel {
+max-width: 700px; /* Tamaño máximo del carrusel */
+margin: 0 auto; /* Centrar el carrusel horizontalmente */
+height: 350px; /* Altura fija del carrusel */
+}
+
+.carousel-item {
+    height: 23rem; /* Altura máxima del item del carrusel */
+    
+}
+
+.carousel-item img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+    object-position: center; /* Centrar la imagen dentro del contenedor */
+}
+
+.pincipal-text{
+    padding-top: 4rem;
+    padding-left: 3rem;
+
+}
+
+.camion{
+    width: auto;
+    overflow: hidden;
+    
+}
+
+.camion img{
+    position: absolute;
+    top: 12rem;
+    left: -6rem;
+    width: 90%;
+    z-index: 99;
+    object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+}
+
+@media (max-width: 770px ) {
+.camion img{
+    top: 75%;
+    left: 15%;
+    width: 70%;
+    z-index: 99;
+    object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+}
+
+.pincipal-text{
+    padding: 0rem;  
+    margin: 1rem;
+}
+}
+
+small{
+  margin: 0px;
+  padding: 0px;
+}
+.titulo-precios{
+  font-size: 20px; 
+  margin-top: 1rem; 
+  padding:0px;
+}
+
+.bg-white{
+  background-color: white;
+  color: black;
+}
+
+
+
+#precio_l,
+#precio_k{
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.image-k{
+  
+    border-radius: 15px;
+    margin-left: 5rem;
+    background-color: #2981b8;
+    color: white;
+    left: 0rem;
+    box-shadow: 0px 12px 30px 1px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 770px ) {
+  .image-k{  
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.carousel-conter{
+    padding-top: 4rem;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+b{
+    font-size: 30px;
+}
+span{
+    font-size: 25px;
+}
+
+.pad-ini{
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 600px ) {
+
+    .pincipal-text{
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    }
+    .navbar-brand img{
+        height: 3.25rem;
+        width: 12.0rem;
+        margin-left: 0.5rem;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    b{
+        font-size: 25px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+}
+
+.bg-facebook {
+    background: #3b579d;
+  }
+  
+  .bg-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+
+  .bg-tiktok {
+    background: #dfdfdf;
+    border-color: black;
+    border: solid 1px;
+  }
+
+  .fa-tiktok {
+    color: #111111;
+    
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+  }
+  .bg-whatsapp {
+    background: #25D366;
+  }
+
+
+  .brand-logo {
+    width: 210px;
+    padding-top: 2rem;
+  }
+  .logomini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-social-icons {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .footer-social-icons a { 
+    color: white;
+    width: 43px;
+    height: 43px;
+    font-size: 1rem;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 43px;
+    margin-right: .5rem;
+  }  
+
+  .contact-details{
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .contact-details i{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    padding-right: 1rem;
+  }
+
+  .nav .nav-item .nav-link {
+    color: #ffffff;
+    border-right: 1px solid #f3f3f3;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: .9375rem;
+    font-family: "roboto-regular", sans-serif;
+    line-height: 1;
+  }
+  
+  .clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  .footer .footer-bottom div .clearfix span,
+  .footer .footer-bottom div .clearfix span b{
+    color: #ffffff;
+    font-family: "roboto-medium", sans-serif;
+    font-size: 13px;
+  }
+
+  .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:115px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    animation: vibrar 10.0001s infinite;
+  }
+  .whatsapp:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color:#fff;
+  }
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+  
+  .tel-icon {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:20px;
+    background-color: rgb(255, 86, 86);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    animation: vibrar 10.0002s infinite;
+  }
+  .tel-icon:hover {
+    text-decoration: none;
+    color: rgb(255, 86, 86);
+    background-color:#fff;
+  }
+  
+  .tel-icon-2 {
+    margin-top: 16px;
+  }
+  
+  @keyframes vibrar {
+    0% { right: 40px; }
+    1% { right: 41px; }
+    2% { right: 38px; }
+    3% { right: 42px; }
+    4% { right: 37px; }
+    5% { right: 42px; }
+    6% { right: 37px; }
+    7% { right: 42px; }
+    8% { right: 35px; }
+    9% { right: 45px; }
+    10% { right: 40px; }
+    12% { right: 40px; }
+    14% { right: 40px; }
+    16% { right: 40px; }
+    18% { right: 40px; }
+    20% { right: 40px; }
+    25% { right: 40px; }
+    30% { right: 40px; }
+    40% { right: 40px; }
+    50% { right: 40px; }
+    60% { right: 40px; }
+    70% { right: 40px; }
+    80% { right: 40px; }
+    100% { right: 40px; }
+  }
+
+
+  .bg-blue {
+    background-color: #0a6ec0;
+    border-radius: 15px;
+    margin: 1%;
+  } 
+
+  @media (max-width: 770px ) {
+    .bg-blue {
+      background-color: #0a6ec0;
+      border-radius: 15px;
+      margin: 5%;
+    } 
+  }
+  img.image-serv{
+    margin-top: 2rem;
+    max-width: 10rem;
+    max-height: 7rem;
+    
+  }
+hr{
+  width: 90%;
+}
+  .col-12 .row .col-md-3 hr{
+    width: 75%;
+    background-color: white;
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+ 
+@media (max-width:  290px ) {
+  .navbar-brand img{
+    
+    width: 50%;
+    height: auto;
+    animation: 1s;
+  }
+}
+
+ 
+@media (max-width:  300px ) {
+  .owl-carousel{
+    left: 1rem;
+  }
+}
+
+.iconos-pedido{
+  border: solid;  
+  border-color: blue;
+}
+
+
+
+
+div.row  .col-md-2{
+  text-align: center;
+}
+
+div.mb-3 div i {
+  font-size: 500%;
+  color: #3c39fc;
+  
+}
+
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.6s ease, transform 0.5s ease;
+}
+
+.hidden-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.6s ease, transform 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.nosotros-logo {
+  width: 70%; /* Establece un ancho inicialmente pequeño */
+  animation: scaleUp 0.7s ease forwards; /* Aplica la animación de escala */
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.3); /* Empieza con una escala pequeña */
+  }
+  
+  100% {
+    transform: scale(1); 
+  }
+}
+
